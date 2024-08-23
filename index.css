@@ -33,6 +33,10 @@
     width: 100%; /* 100% per slide */
     animation: slideAnimation 9s infinite;
   }
+  .eml {
+    height: 173px;
+    border-radius: 6px;
+  }
   .slide {
     flex: 1;
     padding: 20px 20px 0px 20px;
@@ -119,6 +123,10 @@
   div#card_container {
     display: grid;
   }
+  img.migg {
+    width: 109px;
+    margin: 0px 5px 0px 0px;
+}
   
   #head_section{
     border-radius: 0% 0% 0px 0%;
@@ -207,6 +215,17 @@
     div#title_ {
     width: 889px;
     border-right: 3px solid black;
+  }
+  button.carousel_btnnn {
+    padding: 11px 33px;
+    border-radius: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #e70869;
+    color: #fff;
+    font-family: 'Khand';
+    position: relative;
+    top: -10px;
   }
     h2 {
     margin: 0px;
@@ -716,8 +735,9 @@
   }
   div#carousel_btn_cntr {
     display: flex;
-    justify-content: center;
-    margin: 101px 0px;
+    justify-content: flex-start;
+    margin: 0px 38px;
+    align-content: space-around;
   }
   section#services_ {
     display: flex;
@@ -942,13 +962,13 @@ justify-content: center;
   
 display: flex;
   
-margin: 64px 0px 0px 3px;
+margin: 1px 0px 0px 22px;
   
-padding: 19px 3px 38px 16px;
+padding: 55px 3px 38px 16px;
   }
   
   h1{
-    font-size: 59px;
+    font-size: 40px;
     color: #fff;
     font-family: Rufina, serif;
     font-style: italic;
@@ -964,9 +984,10 @@ padding: 19px 3px 38px 16px;
   }
   
   p.hero_para {
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
     font-family: manrope;
+    padding: 0px 35px 0px 0px;
   }
   
   div#hr_cnt_p {
@@ -974,7 +995,7 @@ padding: 19px 3px 38px 16px;
     border-left: 2px solid #e70869;
   }
   div#hr_cnt_p:hover {
-    padding: 0px 0px 0px 26px;
+    padding: 0px 0px 0px 25px;
     border-left: 6px solid #e70869;
     transition: 0.1s ;
   }
@@ -2598,7 +2619,7 @@ display: block;
 min-height: 75px;
 }
 
-.container {max-width: 1380px;margin-right: auto;margin-bottom: 80px;margin-left: auto;padding-top: 0px;padding-right: 30px;padding-bottom: 0px;padding-left: 0px;position: relative;top: 513px;}
+.container {max-width: 1380px;margin-right: auto;margin-bottom: 80px;margin-left: auto;padding-top: 0px;padding-right: 30px;padding-bottom: 0px;padding-left: 0px;position: relative;top: 573px;}
 
 .team-head-text {
 font-size: 48px;
@@ -3000,9 +3021,8 @@ body {
 }
 
 .our_service_section>.single_service_container>.single_service:hover {
-    background-color: #41D8C9;
+    background-color: #e70869;
 }
-
 .our_service_section>.single_service_container>.single_service:hover .icon {
     border-color: #fff;
     background-color: #FFC85B;
@@ -3010,6 +3030,9 @@ body {
 }
 
 
-
-
-
+footer {
+  border-radius: 0% 0% 0px 0%;
+  background: linear-gradient( 333deg, rgba(11, 12, 18, 0.426),  #00000084, #0000007c),  url(/media/13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
