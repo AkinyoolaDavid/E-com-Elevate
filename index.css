@@ -395,7 +395,7 @@
     border: none;
     margin: 0px 0px 0px 0px;
   }
-  .dropdown {
+  /* .dropdown {
     position: relative;
     display: inline-block;
     width: 100px;
@@ -419,7 +419,7 @@
   }
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+  } */
   /* ............................ */
     div#hero_content {
     gap: 13px;
@@ -864,6 +864,9 @@
     padding: 1px 0px 11px 0px;
     box-shadow: 1px 4px 15px 20px rgb(154 152 152 / 10%);
   }
+  .hide{
+    display: none;
+  }
   #stats{
     background: #ffffff;
     height: 240px;
@@ -922,7 +925,7 @@
     border: none;
     margin: 0px 0px 0px 0px;
   }
-  .dropdown {
+  /* .dropdown {
     position: relative;
     display: inline-block;
     width: 100px;
@@ -948,14 +951,14 @@
   }
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+  } */
   /* ............................ */
   div#hero_content {
     gap: 13px;
     padding: 0px 0px  65px 0px;
     display: block;
     height: max-content;
-    background-color: black;
+    background-color: white;
   }
   #hr_cnt_h1{
   
@@ -963,14 +966,14 @@ justify-content: center;
   
 display: flex;
   
-margin: 1px 0px 0px 22px;
+margin: 1px 22px 0px 22px;
   
-padding: 55px 3px 38px 16px;
+padding: 95px 3px 38px 0px;
   }
   
   h1{
     font-size: 40px;
-    color: #fff;
+    color: #000;
     font-family: Rufina, serif;
     font-style: italic;
     margin: 0px;
@@ -981,12 +984,12 @@ padding: 55px 3px 38px 16px;
   p.hr_hd {
     font-size: 28px;
     font-family: "Khand", sans-serif;
-    color: #fff;
+    color: #000;
   }
   
   p.hero_para {
     font-size: 17px;
-    color: #fff;
+    color: #000;
     font-family: manrope;
     padding: 0px 35px 0px 0px;
   }
@@ -3298,4 +3301,17 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
 
+}
+div#hero_content\ blk {
+  background-color: black;
+}
+p.hr_hd.vite {
+  color: #fff;
+}
+
+p.hero_para.vite {
+  color: #fff;
+}
+h1.nex {
+  color: #fff;
 }
